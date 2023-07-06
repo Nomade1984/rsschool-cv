@@ -17,7 +17,7 @@ padding: 30px 0;
 }
 
 .leftside {
-    display: flex;
+    display: block;
     width: 350px;
     min-height: 1200px;
     border: 2px solid grey;
@@ -25,7 +25,7 @@ padding: 30px 0;
 }
 
 .rightside {
-    display: flex;
+    display: block;
     width: 650px;
     min-height: 1200px;
     border: 2px solid grey;
@@ -33,9 +33,36 @@ padding: 30px 0;
 }
 
 .cvpic {
-    display: flex;
-    width: 650px;
+    width: 350px;
     min-height: 300px;
     border: 2px solid grey;
     background: yellow;
+}
+
+.education {
+    width: 350px;
+    min-height: 900px;
+    border: 2px solid grey;
+    background: pink;
+}
+
+.personal {
+    width: 650px;
+    min-height: 300px;
+    border: 2px solid grey;
+    background: purple;
+}
+
+.experience {
+    width: 650px;
+    min-height: 600px;
+    border: 2px solid grey;;
+    background: pink;
+}
+
+.code {
+    width: 650px;
+    min-height: 300px;
+    border: 2px solid grey;
+    background: white;
 }
