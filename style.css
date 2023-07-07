@@ -10,13 +10,13 @@ padding: 30px 0;
 h1 {
     font-size: 60px;
     font-weight: bold;
-    margin: 10px;
+    margin: 20px;
 }
 
 h2 {
     font-size: 30px;
     font-weight: bold;
-    margin: 10px;
+    margin: 20px;
 }
 
 a {
@@ -89,7 +89,7 @@ a {
 .personal {
     width: 650px;
     min-height: 400px;
-    background: rgb(114, 87, 87);
+    background: rgb(187, 184, 184);
 }
 
 .experience {
