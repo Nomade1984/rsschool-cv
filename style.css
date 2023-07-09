@@ -21,10 +21,11 @@ h2 {
 
 a {
     font-size: 20px;
+    line-height: 1.5em;
 }
 
 .container {
-    width: 1000px;
+    width: 1100px;
     min-height: 1500px;
     border: 2px solid grey;
     margin: 0 auto;
@@ -33,7 +34,7 @@ a {
 
 .main {
     display: flex;
-    width: 1000px;
+    width: 1100px;
     min-height: 1200px;
     background: rgb(86, 110, 86);
 }
@@ -45,14 +46,14 @@ a {
 }
 
 .left-side {
-    width: 350px;
+    width: 400px;
     min-height: 1200px;
     background: rgb(126, 126, 74);
 }
 
 .picture {
-    width: 350px;
-    min-height: 350px;
+    width: 400px;
+    min-height: 400px;
     background: rgb(76, 76, 92);
     display: flex;
     align-items: center;
@@ -90,9 +91,10 @@ a {
 }
 
 .personal {
-    width: 650px;
-    min-height: 400px;
+    width: 700px;
+    min-height: 360px;
     background: rgb(187, 184, 184);
+    padding: 25px;
 }
 
 .experience {
@@ -108,7 +110,7 @@ a {
 }
 
 .avatar {
-    width: 300px;
+    width: 350px;
     border-radius: 50%;
     border: 3px solid white;
 }
