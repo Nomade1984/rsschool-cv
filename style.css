@@ -28,6 +28,13 @@ h3 {
     padding-top: 15px;
 }
 
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 80px;
+    padding-bottom: 15px;
+}
+
 .line {
     width: 370px;
     height: 2px;
