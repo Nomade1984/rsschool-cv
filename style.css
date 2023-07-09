@@ -10,23 +10,56 @@ padding: 30px 0;
 h1 {
     font-size: 60px;
     font-weight: bold;
-    margin: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
 }
 
 h2 {
     font-size: 30px;
     font-weight: bold;
-    margin: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+h3 {
+    font-size:25px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.line {
+    width: 370px;
+    height: 2px;
+    background: white;
+    margin-top: 20px;
 }
 
 a {
     font-size: 20px;
     line-height: 1.5em;
+    display: block;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+span {
+    color: white;
+}
+
+ul {
+    list-style-type:disc;
+    margin-left: 30px;
+}
+
+.colored li::marker {
+    color: white;
 }
 
 .container {
-    width: 1100px;
-    min-height: 1500px;
+    width: 1150px;
+    min-height: 2120px;
     border: 2px solid grey;
     margin: 0 auto;
     background: white;
@@ -34,20 +67,20 @@ a {
 
 .main {
     display: flex;
-    width: 1100px;
-    min-height: 1200px;
+    width: 1150px;
+    min-height: 2120px;
     background: rgb(86, 110, 86);
 }
 
 .footer {
-    width: 1000px;
+    width: 1150px;
     min-height: 100px;
     background:rgb(87, 87, 137);
 }
 
 .left-side {
     width: 400px;
-    min-height: 1200px;
+    min-height: 1900px;
     background: rgb(126, 126, 74);
 }
 
@@ -61,31 +94,39 @@ a {
 }
 
 .contacts {
-    width: 350px;
-    min-height: 300px;
-    background: rgb(150, 91, 150);
+    width: 400px;
+    min-height: 420px;
+    background: rgb(76, 76, 92);
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .education {
-    width: 350px;
-    min-height: 250px;
-    background: rgb(175, 175, 80);
+    width: 400px;
+    min-height: 630px;
+    background: rgb(76, 76, 92);
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .skills {
-    width: 350px;
-    min-height: 300px;
-    background: rgb(59, 134, 59);
+    width: 400px;
+    min-height: 270px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background: rgb(76, 76, 92);
 }
 
 .languages {
-    width: 350px;
-    min-height: 100px;
-    background: rgb(149, 52, 149);
+    width: 400px;
+    min-height: 290px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background: rgb(76, 76, 92);
 }
 
 .right-side {
-    width: 650px;
+    width: 700px;
     min-height: 1100px;
     background: rgb(164, 70, 70);
 }
@@ -98,7 +139,7 @@ a {
 }
 
 .experience {
-    width: 650px;
+    width: 700px;
     min-height: 500px;
     background: rgb(91, 135, 91);
 }
