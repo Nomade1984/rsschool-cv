@@ -25,7 +25,7 @@ a {
 
 .container {
     width: 1000px;
-    min-height: 1200px;
+    min-height: 1500px;
     border: 2px solid grey;
     margin: 0 auto;
     background: white;
@@ -34,7 +34,7 @@ a {
 .main {
     display: flex;
     width: 1000px;
-    min-height: 1100px;
+    min-height: 1200px;
     background: rgb(86, 110, 86);
 }
 
@@ -46,14 +46,17 @@ a {
 
 .left-side {
     width: 350px;
-    min-height: 1100px;
+    min-height: 1200px;
     background: rgb(126, 126, 74);
 }
 
 .picture {
     width: 350px;
-    min-height: 200px;
-    background: pink;
+    min-height: 350px;
+    background: rgb(76, 76, 92);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contacts {
@@ -64,7 +67,7 @@ a {
 
 .education {
     width: 350px;
-    min-height: 200px;
+    min-height: 250px;
     background: rgb(175, 175, 80);
 }
 
@@ -102,4 +105,10 @@ a {
     width: 650px;
     min-height: 200px;
     background: rgb(185, 143, 65);
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 50%;
+    border: 3px solid white;
 }
