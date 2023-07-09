@@ -1,3 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Philosopher:wght@400;700&display=swap');
+
 body {
-    color: green;
+font-family: 'Alkatra', cursive;
+font-family: 'Philosopher', sans-serif;
+background-color: rgba(170, 105, 87, 0.7);
+padding: 30px 0;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+h3 {
+    font-size:25px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.line {
+    width: 370px;
+    height: 2px;
+    background: white;
+    margin-top: 20px;
+}
+
+a {
+    font-size: 20px;
+    line-height: 1.5em;
+    display: block;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+span {
+    color: white;
+}
+
+ul {
+    list-style-type:disc;
+    margin-left: 30px;
+}
+
+.colored li::marker {
+    color: white;
+}
+
+.container {
+    width: 1150px;
+    min-height: 2120px;
+    border: 2px solid grey;
+    margin: 0 auto;
+    background: white;
+}
+
+.main {
+    display: flex;
+    width: 1150px;
+    min-height: 2120px;
+    background: rgb(86, 110, 86);
+}
+
+.footer {
+    width: 1150px;
+    min-height: 100px;
+    background:rgb(87, 87, 137);
+}
+
+.left-side {
+    width: 400px;
+    min-height: 1900px;
+    background: rgb(126, 126, 74);
+}
+
+.picture {
+    width: 400px;
+    min-height: 400px;
+    background: rgb(76, 76, 92);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts {
+    width: 400px;
+    min-height: 420px;
+    background: rgb(76, 76, 92);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.education {
+    width: 400px;
+    min-height: 630px;
+    background: rgb(76, 76, 92);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.skills {
+    width: 400px;
+    min-height: 270px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background: rgb(76, 76, 92);
+}
+
+.languages {
+    width: 400px;
+    min-height: 483px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background: rgb(76, 76, 92);
+}
+
+.right-side {
+    width: 700px;
+    min-height: 1100px;
+    background: rgb(164, 70, 70);
+}
+
+.personal {
+    width: 700px;
+    min-height: 333px;
+    background: rgb(187, 184, 184);
+    padding: 25px;
+}
+
+.experience {
+    width: 700px;
+    min-height: 800px;
+    background: rgb(187, 184, 184);
+    padding: 25px;
+}
+
+.code {
+    width: 700px;
+    min-height: 170px;
+    background: rgb(187, 184, 184);
+    padding: 25px;
+}
+
+.avatar {
+    width: 350px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.code-example {
+    width: 650px;
+    padding: 15px;
+    border-radius: 30px;
 }
