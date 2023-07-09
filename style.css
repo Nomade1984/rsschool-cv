@@ -3,7 +3,7 @@
 body {
 font-family: 'Alkatra', cursive;
 font-family: 'Philosopher', sans-serif;
-background-color: rgba(170, 105, 87, 0.7);
+background-color: rgba(139, 100, 89, 0.7);
 padding: 30px 0;
 }
 
@@ -32,6 +32,13 @@ h3 {
     width: 370px;
     height: 2px;
     background: white;
+    margin-top: 20px;
+}
+
+.line1 {
+    width: 700px;
+    height: 3px;
+    background: rgb(82, 77, 77);
     margin-top: 20px;
 }
 
@@ -76,6 +83,10 @@ ul {
     width: 1150px;
     min-height: 100px;
     background:rgb(87, 87, 137);
+}
+
+.footer ul {
+    display: flex;
 }
 
 .left-side {
@@ -162,4 +173,20 @@ ul {
     width: 650px;
     padding: 15px;
     border-radius: 30px;
+}
+
+.github {
+    width: 50px;
+    height: 50px;
+}
+
+.rsschool {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.vk {
+    width: 50px;
+    height: 50px;
 }
