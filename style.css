@@ -133,15 +133,16 @@ ul {
 
 .personal {
     width: 700px;
-    min-height: 360px;
+    min-height: 333px;
     background: rgb(187, 184, 184);
     padding: 25px;
 }
 
 .experience {
     width: 700px;
-    min-height: 500px;
-    background: rgb(91, 135, 91);
+    min-height: 800px;
+    background: rgb(187, 184, 184);
+    padding: 25px;
 }
 
 .code {
