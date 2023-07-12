@@ -43,7 +43,7 @@ h4 {
 }
 
 .line1 {
-    width: 700px;
+    width: 680px;
     height: 3px;
     background: rgb(82, 77, 77);
     margin-top: 20px;
@@ -73,6 +73,15 @@ ul {
 
 .colored1 li::marker {
     color: rgb(187, 184, 184);
+}
+
+.code1 {
+    font-size: 25px;
+    width: 600px;
+    min-height: 250px;
+    background: rgb(187, 184, 184);
+    padding: 25px;
+    display: inline-block;
 }
 
 .container {
@@ -152,9 +161,17 @@ ul {
     background: rgb(76, 76, 92);
 }
 
+.projects {
+    width: 400px;
+    min-height: 200px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background: rgb(76, 76, 92);
+}
+
 .languages {
     width: 400px;
-    min-height: 500px;
+    min-height: 400px;
     padding-left: 10px;
     padding-top: 10px;
     background: rgb(76, 76, 92);
@@ -180,7 +197,7 @@ ul {
     padding: 25px;
 }
 
-.code {
+.code-example {
     width: 700px;
     min-height: 250px;
     background: rgb(187, 184, 184);
@@ -191,12 +208,6 @@ ul {
     width: 350px;
     border-radius: 50%;
     border: 3px solid white;
-}
-
-.code-example {
-    width: 650px;
-    padding: 15px;
-    border-radius: 30px;
 }
 
 .github {
