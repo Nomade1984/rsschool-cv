@@ -64,11 +64,12 @@ span {
 
 ul {
     list-style-type:disc;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 .colored li::marker {
     color: white;
+    
 }
 
 .colored1 li::marker {
@@ -125,7 +126,7 @@ ul {
 .left-side {
     width: 400px;
     min-height: 1900px;
-    background: rgb(126, 126, 74);
+    background: rgb(76, 76, 92);
 }
 
 .picture {
